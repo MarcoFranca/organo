@@ -4,7 +4,7 @@ import './Banner.css'
 export const Banner = () => {
     return(
         <header className='banner'>
-            <img src="/image/banner.png" alt='banner'/>
+            <img src="../../../public/image/banner.png" alt='banner'/>
         </header>
     );
 
