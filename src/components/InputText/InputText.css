@@ -1,0 +1,16 @@
+.input-text{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-text__label{
+    font-size: 18px;
+    margin: .4rem;
+}
+
+.input-text__input{
+    padding: 1rem 0.5rem;
+    border: none;
+    box-shadow: 0.3rem 0.1rem 0.5rem rgb(0, 0, 0, 0.3);
+}
