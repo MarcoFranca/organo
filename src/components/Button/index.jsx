@@ -1,7 +1,7 @@
 import './Button.css'
 
-export default function () {
+export default function (props) {
     return(
-            <button className='button-container__button'>Criar card</button>
+            <button className='button-container__button'>{props.children}</button>
     )
 }

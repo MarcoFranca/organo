@@ -13,7 +13,9 @@ export const Form = () =>{
                 <InputText label="Cargo" placeholder='Digite o seu cargo'/>
                 <InputText label="Imagem" placeholder='Digite a url da imagem'/>
                 <DropDown label="Time" itens={team}/>
-                <Button/>
+                <Button>
+                    Criar card
+                </Button>
             </form>
         </section>
     )
