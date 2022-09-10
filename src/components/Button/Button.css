@@ -1,0 +1,16 @@
+.button-container__button{
+    width: 167px;
+    height: 80px;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #6278F7;
+    border: none;
+    color: #F6F6F6;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1.925rem;
+}
+
+.button-container__button:hover{
+    color: #95FFD4;
+}
