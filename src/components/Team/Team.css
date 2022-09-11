@@ -1,0 +1,23 @@
+.team{
+    display: flex;
+    justify-content: center;
+    padding-top: 2.05rem;
+}
+
+.team__team-content{
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team__team-content__title{
+    font-size: 32px;
+}
+
+.team__team-content__after{
+    width: 2rem;
+    height: 0.2rem;
+    border-radius: 0.3rem;
+}
