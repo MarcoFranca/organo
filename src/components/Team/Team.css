@@ -1,6 +1,8 @@
 .team{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding-top: 2.05rem;
 }
 
@@ -20,4 +22,9 @@
     width: 2rem;
     height: 0.2rem;
     border-radius: 0.3rem;
+}
+
+.team__cards{
+    display: flex;
+    gap: 24px;
 }
