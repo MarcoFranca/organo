@@ -12,7 +12,8 @@ function App() {
         console.log(contributer)
     }
 
-    const teams =[{
+    const teams = [
+        {
         name:'Programação',
         background:'#D9F7E9',
         borderColor:'#57C278'
@@ -51,7 +52,10 @@ function App() {
     return (
         <div className="App">
             <Banner/>
-            <Form registeredContributor = {contributer => toNewContributer(contributer)}/>
+            <Form
+                registeredContributor = {contributer => toNewContributer(contributer)}
+                selectTeam={teams.map(team => team.name)}
+            />
             {teams.map(team => <Team
                 key={team.name}
                 backGround={team.background}
