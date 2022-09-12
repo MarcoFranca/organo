@@ -4,9 +4,9 @@ export default function Footer () {
     return (
         <div className='footer'>
             <div className='footer__media'>
-                {/*<a href="#"><img src="/image/footer/fb.png" alt="face"/></a>*/}
-                {/*<a href="#"><img src="/image/footer/tw.png" alt="tweeter"/></a>*/}
-                {/*<a href="#"><img src="/image/footer/ig.png" alt="instagram"/></a>*/}
+                <a href="#"><img src="./image/fb.png" alt="face"/></a>
+                <a href="#"><img src="./image/tw.png" alt="tweeter"/></a>
+                <a href="#"><img src="./image/ig.png" alt="instagram"/></a>
             </div>
             <div>
                 <img src="./image/logo.png" alt="organo"/>
