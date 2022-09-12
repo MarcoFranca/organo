@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #6278F7;
+    color: #FFFFFF;
+    height: 15rem;
+}
+
+.footer__media{
+    display: flex;
+    justify-content: space-between;
+    width: 10rem;
+
+}

@@ -2,6 +2,7 @@ import Banner from "./components/Banner";
 import {Form} from "./components/Form";
 import {useState} from "react";
 import Team from "./components/Team";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -57,13 +58,13 @@ function App() {
                 selectTeam={teams.map(team => team.name)}
             />
             {teams.map(team => <Team
-                key={team.name}
-                backGround={team.background}
-                border={team.borderColor}
-                title={team.name}
+                    contributers={contributers.filter(contributers => contributers.selectValue === team.name)}
+                    key={team.name}
+                    backGround={team.background}
+                    border={team.borderColor}
+                    title={team.name}
             />)}
-
-
+            <Footer/>
         </div>
     );
 }
