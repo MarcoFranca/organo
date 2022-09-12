@@ -9,7 +9,7 @@ export default function Footer () {
                 {/*<a href="#"><img src="/image/footer/ig.png" alt="instagram"/></a>*/}
             </div>
             <div>
-                <img src="./image/logo.png" alt="organo"/>
+                <img src="/image/footer/logo.png" alt="organo"/>
             </div>
             <div>
                 <p>Desenvolvido por Alura & Marco Tullio</p>
