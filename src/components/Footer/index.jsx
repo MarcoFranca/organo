@@ -7,7 +7,7 @@ export default function Footer () {
                 {/*<a href="#"><img src="./image/fb.png" alt="face"/></a>*/}
                 {/*<a href="#"><img src="./image/tw.png" alt="tweeter"/></a>*/}
                 {<a href="#">
-                    <img src="./image/ig.png" alt="instagram"/>
+                    <img src="/image/ig.png" alt="instagram"/>
                 </a>}
             </div>
             <div>
