@@ -1,8 +1,7 @@
 import './Team.css'
 import Card from "../Card";
 
-export default function (props) {
-
+export default function Team(props) {
     return (
         (props.contributers.length > 0) && <section className='team'
                  style ={{backgroundColor: props.backGround}}>

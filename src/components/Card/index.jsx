@@ -1,6 +1,6 @@
 import './Card.css'
 
-export default function ({name, image, office, backGround}) {
+export default function Card ({name, image, office, backGround}) {
     return (
         <div className='card'>
             <div className='card__header' style={{backgroundColor : backGround}}>
