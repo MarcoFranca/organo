@@ -6,9 +6,9 @@ export default function Footer () {
             <div className='footer__media'>
                 {/*<a href="#"><img src="./image/fb.png" alt="face"/></a>*/}
                 {/*<a href="#"><img src="./image/tw.png" alt="tweeter"/></a>*/}
-                <a href="#">
-                    <img src="../../../public/image/ig.png" alt="instagram"/>
-                </a>
+                {<a href="#">
+                    <img src="./image/ig.png" alt="instagram"/>
+                </a>}
             </div>
             <div>
                 <img src="./image/logo.png" alt="organo"/>
