@@ -1,14 +1,14 @@
 import './Card.css'
 
-export default function (props) {
+export default function ({name, image, office, backGround}) {
     return (
         <div className='card'>
-            <div className='card__header'>
-                <img src='https://github.com/dinosoid.png' alt='perfil image'/>
+            <div className='card__header' style={{backgroundColor : backGround}}>
+                <img src={image} alt={name}/>
             </div>
             <div className='card__content'>
-                <h3>João das Coves</h3>
-                <h4>Desenvolvedor de legumes</h4>
+                <h3>{name}</h3>
+                <h4>{office}</h4>
             </div>
         </div>
     )

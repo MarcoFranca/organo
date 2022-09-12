@@ -26,5 +26,7 @@
 
 .team__cards{
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
 }

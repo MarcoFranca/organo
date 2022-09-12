@@ -10,18 +10,21 @@ export const Form = (props) =>{
     const [imageValue, setImage] = useState('')
     const [selectValue, setSelect] = useState('Programação')
 
+
+
     const onSave = (event) =>{
         event.preventDefault()
         props.registeredContributor({
             nameValue,
             officeValue,
             imageValue,
-            selectValue
+            selectValue,
+            keyNum:Math.round(Math.random() * 1000)
         })
-        console.log(`form foi submetido =>`, nameValue, officeValue, imageValue, selectValue)
+        setName('')
+        setOffice('')
+        setImage('')
     }
-
-
 
     return(
         <section className='form-container'>
